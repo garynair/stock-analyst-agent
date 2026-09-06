@@ -1,0 +1,183 @@
+{
+  "generated_at": "2026-09-06T00:00:00Z",
+  "generated_by": "agent_1_framework",
+  "source_file": "input/WFC - Portfolio.xlsx",
+  "tickers": [
+    {"ticker": "NVDA", "company": "Nvidia Corp", "state": "No Position"},
+    {"ticker": "AAPL", "company": "Apple Inc", "state": "No Position"},
+    {"ticker": "GOOGL", "company": "Alphabet Inc Class A", "state": "No Position"},
+    {"ticker": "MSFT", "company": "Microsoft Corp", "state": "No Position"},
+    {"ticker": "AMZN", "company": "Amazon.com Inc", "state": "No Position"},
+    {"ticker": "TSM", "company": "Taiwan Semiconductor Mfg (ADR)", "state": "No Position"},
+    {"ticker": "SPCX", "company": "Space Exploration Technologies Corp Class A", "state": "No Position"},
+    {"ticker": "AVGO", "company": "Broadcom Inc", "state": "No Position"},
+    {"ticker": "META", "company": "Meta Platforms Inc", "state": "No Position"},
+    {"ticker": "TSLA", "company": "Tesla Inc", "state": "No Position"}
+  ],
+  "ticker_validation_notes": [
+    "SPCX (Space Exploration Technologies Corp / SpaceX) verified via web search as an active NASDAQ-listed ticker as of this run — flagged for confirmation because SpaceX was privately held historically; confirmed public post-IPO, safe to research normally. Agents 2-4 should still verify a live quote resolves before scoring, and note in their output if it does not."
+  ],
+  "data_source": {
+    "mode": "web_search",
+    "api_provider": null,
+    "api_key_env_var": null
+  },
+  "categories": {
+    "technical": {
+      "weight": 0.30,
+      "parameters": [
+        {
+          "name": "SMA Trend (50D/200D)",
+          "description": "Price position relative to the 50-day and 200-day simple moving averages, and their relative order (golden cross vs. death cross regime).",
+          "rubric": [
+            {"condition": "Price above both 50D and 200D SMA, and 50D SMA above 200D SMA (golden cross regime)", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "Mixed signal — price above one MA but not the other, or MAs converging/flat", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "Price below both 50D and 200D SMA, and 50D SMA below 200D SMA (death cross regime)", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        },
+        {
+          "name": "RSI(14)",
+          "description": "14-day Relative Strength Index.",
+          "rubric": [
+            {"condition": "< 30", "score_range": [8, 10], "direction": "bullish (oversold, reversal potential)"},
+            {"condition": "30-70", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "> 70", "score_range": [2, 4], "direction": "bearish (overbought)"}
+          ]
+        },
+        {
+          "name": "MACD Signal",
+          "description": "MACD line vs. signal line, and direction of the most recent crossover.",
+          "rubric": [
+            {"condition": "MACD line above signal line and rising (recent bullish crossover, widening)", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "MACD/signal converging, flat, or crossed within the last few sessions with no clear follow-through", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "MACD line below signal line and falling (recent bearish crossover, widening)", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        },
+        {
+          "name": "Volume Trend",
+          "description": "20-day average volume trend relative to price direction (accumulation vs. distribution).",
+          "rubric": [
+            {"condition": "Rising volume concentrated on up days / above-average volume with price advancing (accumulation)", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "Volume roughly flat or mixed relative to price direction", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "Rising volume concentrated on down days / above-average volume with price declining (distribution)", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        },
+        {
+          "name": "52-Week Range Position",
+          "description": "Current price as a percentile of the 52-week high/low range.",
+          "rubric": [
+            {"condition": "Top quartile of 52-week range (> 80th percentile), i.e. near 52-week highs with relative strength", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "Middle of 52-week range (20th-80th percentile)", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "Bottom quartile of 52-week range (< 20th percentile), i.e. near 52-week lows", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        }
+      ]
+    },
+    "fundamental": {
+      "weight": 0.40,
+      "parameters": [
+        {
+          "name": "P/E vs. Sector/Historical",
+          "description": "Trailing P/E compared to sector median and the stock's own 5-year average. If P/E is not meaningful (negative earnings), substitute P/S and note the substitution.",
+          "rubric": [
+            {"condition": "P/E below both sector median and own 5-year average (undervalued on both bases)", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "P/E within ~15% of sector median and/or historical average", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "P/E above both sector median and own 5-year average by more than ~15% (overvalued on both bases)", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        },
+        {
+          "name": "Revenue Growth YoY",
+          "description": "Most recent quarter or TTM revenue growth, year-over-year.",
+          "rubric": [
+            {"condition": "> 15%", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "0% to 15%", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "Negative", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        },
+        {
+          "name": "Profit Margin Trend",
+          "description": "Operating or net margin trend over the trailing several quarters.",
+          "rubric": [
+            {"condition": "Expanding by more than ~1 point YoY", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "Roughly flat (within ±1 point)", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "Contracting by more than ~1 point YoY", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        },
+        {
+          "name": "Debt-to-Equity",
+          "description": "Total debt to shareholder equity. Sector context matters (e.g. capital-intensive or financial-services names run structurally higher) — note sector norms rather than scoring blind.",
+          "rubric": [
+            {"condition": "< 0.5x (conservative leverage)", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "0.5x - 1.5x (moderate leverage)", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "> 1.5x (elevated leverage)", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        },
+        {
+          "name": "FCF / EPS Growth",
+          "description": "Free cash flow trend combined with EPS growth YoY.",
+          "rubric": [
+            {"condition": "Positive FCF and EPS growth > 10% YoY", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "Positive FCF, EPS growth flat to 10%", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "Negative or declining FCF, or negative EPS growth", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        }
+      ]
+    },
+    "sentiment": {
+      "weight": 0.30,
+      "parameters": [
+        {
+          "name": "Analyst Consensus & Price Target",
+          "description": "Aggregate analyst rating and average price target vs. current price.",
+          "rubric": [
+            {"condition": "Consensus Buy/Strong Buy and average price target > 10% above current price", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "Consensus Hold, or price target within ±10% of current price", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "Consensus Sell/Underweight, or average price target > 10% below current price", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        },
+        {
+          "name": "Recent News Sentiment",
+          "description": "Tone of the 2-3 most significant news items in the trailing 2-4 weeks (earnings, guidance, product, legal/regulatory, management changes).",
+          "rubric": [
+            {"condition": "Predominantly positive coverage (beats, raised guidance, favorable product/legal news)", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "Mixed or neutral coverage", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "Predominantly negative coverage (misses, cut guidance, litigation, adverse headlines)", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        },
+        {
+          "name": "Short Interest",
+          "description": "Short interest as a percentage of float. Note in output if elevated short interest could also signal squeeze risk rather than pure bearishness.",
+          "rubric": [
+            {"condition": "< 3% of float", "score_range": [8, 10], "direction": "bullish (low bearish positioning)"},
+            {"condition": "3% - 10% of float", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "> 10% of float", "score_range": [2, 4], "direction": "bearish (high bearish positioning)"}
+          ]
+        },
+        {
+          "name": "Insider Activity",
+          "description": "Net insider buying/selling over the trailing 3 months.",
+          "rubric": [
+            {"condition": "Net insider buying", "score_range": [8, 10], "direction": "bullish"},
+            {"condition": "Minimal or no net insider transactions", "score_range": [5, 7], "direction": "neutral"},
+            {"condition": "Net insider selling, especially by multiple executives", "score_range": [2, 4], "direction": "bearish"}
+          ]
+        }
+      ]
+    }
+  },
+  "decision_thresholds": {
+    "buy_min": 7.0,
+    "sell_max": 4.5
+  },
+  "decision_logic": {
+    "description": "Overall score combined with current position state (from input State column) determines the decision label.",
+    "rules": [
+      {"if": "overall_score >= buy_min", "and_state": "position held", "decision": "BUY (add)"},
+      {"if": "overall_score >= buy_min", "and_state": "no position", "decision": "BUY"},
+      {"if": "sell_max <= overall_score < buy_min", "and_state": "position held", "decision": "HOLD"},
+      {"if": "sell_max <= overall_score < buy_min", "and_state": "no position", "decision": "NO ACTION"},
+      {"if": "overall_score < sell_max", "and_state": "position held", "decision": "SELL"},
+      {"if": "overall_score < sell_max", "and_state": "no position", "decision": "NO ACTION"}
+    ]
+  }
+}

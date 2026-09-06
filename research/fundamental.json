@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-09-06T00:00:00Z",
+  "category": "fundamental",
+  "stocks": [
+    {
+      "ticker": "NVDA",
+      "parameters": [
+        {"name": "P/E vs. Sector/Historical", "value": "Trailing P/E 29.13 vs. Semiconductors industry median 35.94 (19% below) and own 5-yr avg P/E ~61.97 (FY22-FY26: 58.55, 114.74, 50.65, 47.93, 37.98) — 53% below own history. Undervalued on both counts.", "score": 9, "source": {"name": "GuruFocus PE Ratio (TTM)", "url": "https://www.gurufocus.com/term/pettm/NVDA"}, "as_of": "2026-09-06"},
+        {"name": "Revenue Growth YoY", "value": "TTM revenue $302,970M, +83.38% YoY (vs FY2025 $130,497M)", "score": 10, "source": {"name": "stockanalysis.com/stocks/NVDA/financials", "url": "https://stockanalysis.com/stocks/NVDA/financials/"}, "as_of": "TTM ended 2026-07-26"},
+        {"name": "Profit Margin Trend", "value": "Net margin 63.66% (TTM) vs 55.85% FY2025, expanding +7.81 pts; operating margin 65.21% vs 62.42%", "score": 9, "source": {"name": "stockanalysis.com/stocks/NVDA/financials", "url": "https://stockanalysis.com/stocks/NVDA/financials/"}, "as_of": "TTM ended 2026-07-26"},
+        {"name": "Debt-to-Equity", "value": "0.17x — conservative leverage, well below the semiconductor peer norm", "score": 9, "source": {"name": "stockanalysis.com/stocks/NVDA/financials/ratios", "url": "https://stockanalysis.com/stocks/NVDA/financials/ratios/"}, "as_of": "2026-09-04"},
+        {"name": "FCF / EPS Growth", "value": "TTM FCF $127,006M (+76.34% YoY); Diluted EPS $7.91, +125.28% YoY", "score": 10, "source": {"name": "stockanalysis.com/stocks/NVDA/financials/cash-flow-statement", "url": "https://stockanalysis.com/stocks/NVDA/financials/cash-flow-statement/"}, "as_of": "TTM ended 2026-07-26"}
+      ],
+      "notes": "All metrics strongly bullish; AI datacenter demand driving growth and margin expansion with minimal leverage and huge FCF. Watch export-control/China risk and rising custom-ASIC competition as forward risks not captured in trailing data."
+    },
+    {
+      "ticker": "AAPL",
+      "parameters": [
+        {"name": "P/E vs. Sector/Historical", "value": "Trailing P/E 36.71 vs. Hardware industry median 25.23 (35% above) and own 5-yr avg P/E ~29.65 (FY21-25: 25.65,24.22,27.60,36.95,33.85) — ~24% above own history. Overvalued both ways.", "score": 3, "source": {"name": "GuruFocus PE Ratio (TTM)", "url": "https://www.gurufocus.com/term/pettm/AAPL"}, "as_of": "2026-09-05"},
+        {"name": "Revenue Growth YoY", "value": "TTM revenue $466,823M, +14.24% YoY", "score": 6, "source": {"name": "stockanalysis.com/stocks/AAPL/financials", "url": "https://stockanalysis.com/stocks/AAPL/financials/"}, "as_of": "TTM ended 2026-06-27"},
+        {"name": "Profit Margin Trend", "value": "Net margin 27.62% (TTM) vs 26.91% FY2025, +0.71 pt — roughly flat", "score": 6, "source": {"name": "stockanalysis.com/stocks/AAPL/financials", "url": "https://stockanalysis.com/stocks/AAPL/financials/"}, "as_of": "TTM ended 2026-06-27"},
+        {"name": "Debt-to-Equity", "value": "0.78x — moderate leverage (down from 1.52x in FY2025)", "score": 6, "source": {"name": "stockanalysis.com/stocks/AAPL/financials/ratios", "url": "https://stockanalysis.com/stocks/AAPL/financials/ratios/"}, "as_of": "2026-09-04"},
+        {"name": "FCF / EPS Growth", "value": "TTM FCF $136,683M (+42.11% YoY, reversing FY2025's -9.23%); Diluted EPS $8.72, +32.61% YoY", "score": 9, "source": {"name": "stockanalysis.com/stocks/AAPL/financials/cash-flow-statement", "url": "https://stockanalysis.com/stocks/AAPL/financials/cash-flow-statement/"}, "as_of": "TTM ended 2026-06-27"}
+      ],
+      "notes": "Valuation is the weak spot — trades rich vs. both sector and own history. Underlying fundamentals (margin stability, deleveraging, strong FCF/EPS growth) are solid; revenue growth just below the 15% bullish threshold."
+    },
+    {
+      "ticker": "GOOGL",
+      "parameters": [
+        {"name": "P/E vs. Sector/Historical", "value": "Trailing P/E ~17.0 vs. Interactive Media industry median 15.125 (12.4% above, within threshold) but ~29% below own 5-yr avg P/E ~24.0 (FY21-25: 25.28,19.09,23.79,23.21,28.61). Mixed signal — near sector, cheap vs. own history.", "score": 7, "source": {"name": "GuruFocus PE Ratio (TTM)", "url": "https://www.gurufocus.com/term/pettm/GOOGL"}, "as_of": "2026-09-05"},
+        {"name": "Revenue Growth YoY", "value": "TTM revenue $445,866M, +20.05% YoY (FY2025 was +15.09%)", "score": 9, "source": {"name": "stockanalysis.com/stocks/GOOGL/financials", "url": "https://stockanalysis.com/stocks/GOOGL/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Profit Margin Trend", "value": "Operating margin 33.11% (TTM) vs 32.03% FY2025, +1.08 pt (modest expansion). Net margin jumped to 54.75% from 32.81% (+21.9 pts) — this swing is unusually large and likely reflects a one-time gain (e.g., investment/equity revaluation) rather than core operating improvement; operating margin is the more reliable read.", "score": 8, "source": {"name": "stockanalysis.com/stocks/GOOGL/financials", "url": "https://stockanalysis.com/stocks/GOOGL/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Debt-to-Equity", "value": "0.19x — conservative leverage", "score": 9, "source": {"name": "stockanalysis.com/stocks/GOOGL/financials/ratios", "url": "https://stockanalysis.com/stocks/GOOGL/financials/ratios/"}, "as_of": "2026-09-04"},
+        {"name": "FCF / EPS Growth", "value": "TTM FCF $53,273M, -20.16% YoY (down from FY2025 $73,266M) due to capex surging to $132.4B; EPS +112.48% YoY (partly reflects the same one-time item noted above)", "score": 4, "source": {"name": "stockanalysis.com/stocks/GOOGL/financials/cash-flow-statement", "url": "https://stockanalysis.com/stocks/GOOGL/financials/cash-flow-statement/"}, "as_of": "TTM ended 2026-06-30"}
+      ],
+      "notes": "Net margin and EPS growth figures are likely inflated by a one-time non-operating item within the TTM window; operating margin and revenue trends (both solidly positive) are more representative. AI-infrastructure capex is pressuring FCF despite strong top-line growth."
+    },
+    {
+      "ticker": "MSFT",
+      "parameters": [
+        {"name": "P/E vs. Sector/Historical", "value": "Trailing P/E ~27.84 vs. Software industry median 20.8 (35% above) but ~11% below own 5-yr avg P/E ~31.22 (FY22-26: 26.41,34.99,37.69,36.31,20.72). Mixed signal, not extreme either way.", "score": 5, "source": {"name": "GuruFocus PE Ratio (TTM)", "url": "https://www.gurufocus.com/term/pettm/MSFT"}, "as_of": "2026-09-06"},
+        {"name": "Revenue Growth YoY", "value": "TTM revenue $331,839M, +17.79% YoY", "score": 9, "source": {"name": "stockanalysis.com/stocks/MSFT/financials", "url": "https://stockanalysis.com/stocks/MSFT/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Profit Margin Trend", "value": "Net margin 40.30% (TTM) vs 36.15% FY2025, +4.15 pts expanding; operating margin 46.78% vs 45.62%", "score": 9, "source": {"name": "stockanalysis.com/stocks/MSFT/financials", "url": "https://stockanalysis.com/stocks/MSFT/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Debt-to-Equity", "value": "0.29x — conservative leverage", "score": 9, "source": {"name": "stockanalysis.com/stocks/MSFT/financials/ratios", "url": "https://stockanalysis.com/stocks/MSFT/financials/ratios/"}, "as_of": "2026-09-04"},
+        {"name": "FCF / EPS Growth", "value": "FY2026 FCF $66,987M, -6.46% YoY (from $71,611M) despite 34.35% operating cash flow growth, because capex nearly doubled to $115,948M; EPS +31.60% YoY", "score": 4, "source": {"name": "stockanalysis.com/stocks/MSFT/financials/cash-flow-statement", "url": "https://stockanalysis.com/stocks/MSFT/financials/cash-flow-statement/"}, "as_of": "FY2026 ended 2026-06-30"}
+      ],
+      "notes": "Strong growth, margin expansion and low leverage, but FCF is declining despite record earnings — driven entirely by an unprecedented AI-datacenter capex ramp, a genuine (not one-off) reinvestment trend worth monitoring."
+    },
+    {
+      "ticker": "AMZN",
+      "parameters": [
+        {"name": "P/E vs. Sector/Historical", "value": "Trailing P/E 20.79 vs. Retail-Cyclical industry median 16.37 (27% above) but ~52% below own 5-yr avg P/E ~43.25 (FY21,23,24,25: 50.68,51.61,38.94,31.77; FY22 N/A). Mixed signal.", "score": 6, "source": {"name": "GuruFocus PE Ratio (TTM)", "url": "https://www.gurufocus.com/term/pettm/AMZN"}, "as_of": "2026-09-06"},
+        {"name": "Revenue Growth YoY", "value": "TTM revenue $775,680M, +15.77% YoY", "score": 8, "source": {"name": "stockanalysis.com/stocks/AMZN/financials", "url": "https://stockanalysis.com/stocks/AMZN/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Profit Margin Trend", "value": "Net margin 17.44% (TTM) vs 10.83% FY2025, +6.61 pts expanding strongly", "score": 9, "source": {"name": "stockanalysis.com/stocks/AMZN/financials", "url": "https://stockanalysis.com/stocks/AMZN/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Debt-to-Equity", "value": "0.46x — conservative leverage, improved from prior years", "score": 8, "source": {"name": "stockanalysis.com/stocks/AMZN/financials/ratios", "url": "https://stockanalysis.com/stocks/AMZN/financials/ratios/"}, "as_of": "2026-09-04"},
+        {"name": "FCF / EPS Growth", "value": "TTM FCF turned negative at -$11,625M (from +$7,695M in FY2025, -76.6%+ swing) as capex hit $173,028M; EPS +89.66% YoY despite the FCF drop", "score": 3, "source": {"name": "stockanalysis.com/stocks/AMZN/financials/cash-flow-statement", "url": "https://stockanalysis.com/stocks/AMZN/financials/cash-flow-statement/"}, "as_of": "TTM ended 2026-06-30"}
+      ],
+      "notes": "Margins and EPS growth are excellent, and leverage is conservative, but AWS/AI infrastructure capex has pushed FCF negative — a genuine reinvestment story, not a one-time charge. Valuation looks fair vs. own history but rich vs. peers."
+    },
+    {
+      "ticker": "TSM",
+      "parameters": [
+        {"name": "P/E vs. Sector/Historical", "value": "Trailing P/E 28.35 vs. Semiconductors industry median 35.54 (~20% below, bullish) but ~36% ABOVE own 5-yr avg P/E ~20.89 (FY21-25: 26.92,11.71,18.05,24.07,23.68). Mixed signal.", "score": 5, "source": {"name": "GuruFocus PE Ratio (TTM)", "url": "https://www.gurufocus.com/term/pettm/TSM"}, "as_of": "2026-09-05"},
+        {"name": "Revenue Growth YoY", "value": "TTM revenue NT$4,440,492M, +30.56% YoY", "score": 9, "source": {"name": "stockanalysis.com/stocks/TSM/financials", "url": "https://stockanalysis.com/stocks/TSM/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Profit Margin Trend", "value": "Net margin 49.92% (TTM) vs 44.57% FY2025, +5.35 pts expanding", "score": 9, "source": {"name": "stockanalysis.com/stocks/TSM/financials", "url": "https://stockanalysis.com/stocks/TSM/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Debt-to-Equity", "value": "0.17x — conservative leverage", "score": 9, "source": {"name": "stockanalysis.com/stocks/TSM/financials/ratios", "url": "https://stockanalysis.com/stocks/TSM/financials/ratios/"}, "as_of": "2026-09-04"},
+        {"name": "FCF / EPS Growth", "value": "TTM FCF NT$1,143,556M, +15.21% to +21.95% YoY (source shows both figures across periods); EPS NT$85.49, +53.43% YoY", "score": 10, "source": {"name": "stockanalysis.com/stocks/TSM/financials/cash-flow-statement", "url": "https://stockanalysis.com/stocks/TSM/financials/cash-flow-statement/"}, "as_of": "TTM ended 2026-06-30"}
+      ],
+      "notes": "Broad-based strength across growth, margins, leverage, and cash generation. Valuation re-rated up vs. its own recent history (AI/foundry demand), though still cheap vs. sector peers. Figures reported in TWD (millions/per-share)."
+    },
+    {
+      "ticker": "SPCX",
+      "parameters": [
+        {"name": "P/E vs. Sector/Historical", "value": "P/E not meaningful (net loss). Substituting P/S: Market cap $2.01T / TTM revenue $23.04B ≈ 87x P/S — no comparable sector median found for this hybrid space/telecom/AI business, and no multi-year own history exists (recent IPO). Extremely rich multiple by any conventional standard.", "score": 3, "source": {"name": "stockanalysis.com/stocks/spcx", "url": "https://stockanalysis.com/stocks/spcx/"}, "as_of": "2026-09-06"},
+        {"name": "Revenue Growth YoY", "value": "TTM revenue $23.04B, +121.9% YoY; Q2 2026 revenue $6.93-7.8B (sources vary), roughly doubled YoY", "score": 10, "source": {"name": "stockanalysis.com/stocks/spcx", "url": "https://stockanalysis.com/stocks/spcx/"}, "as_of": "TTM ended approx. 2026-06-30"},
+        {"name": "Profit Margin Trend", "value": "TTM net loss -$8.89B on $23.04B revenue (~-38.6% net margin); Q2 2026 alone showed a narrower net loss of $541M on quarterly revenue (~-7% margin for that quarter), suggesting improving quarterly profitability, but a clean YoY point-change in margin could not be confirmed from available sources — pre-IPO reporting comparability is limited.", "score": 4, "source": {"name": "NPR — SpaceX first earnings report since IPO", "url": "https://www.npr.org/2026/08/04/nx-s1-5918536/spacex-first-earnings-report-since-ipo"}, "as_of": "Q2 2026 (reported 2026-08-04)"},
+        {"name": "Debt-to-Equity", "value": "0.31x (Total debt $39,708M / Shareholders' equity $127,224M) — conservative leverage", "score": 8, "source": {"name": "stockanalysis.com/stocks/spcx/financials/balance-sheet", "url": "https://stockanalysis.com/stocks/spcx/financials/balance-sheet/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "FCF / EPS Growth", "value": "TTM FCF -$32,515M, worsening from FY2025's -$14,121M as capex more than doubled to $42,415M; EPS -$2.27 TTM, no reliable prior-year comparable EPS available (recent IPO) to compute YoY growth", "score": 2, "source": {"name": "stockanalysis.com/stocks/spcx/financials/cash-flow-statement", "url": "https://stockanalysis.com/stocks/spcx/financials/cash-flow-statement/"}, "as_of": "TTM ended 2026-06-30"}
+      ],
+      "notes": "IPO'd June 12, 2026 — only ~3 months of public trading and one reported quarter (Q2 2026) as of this research date, so historical/YoY comparisons are inherently limited and some TTM figures blend pre- and post-IPO periods. Company remains unprofitable and deeply FCF-negative due to massive capex (Starlink, AI infrastructure) but revenue growth is extremely strong and leverage is conservative. Valuation (P/S ~87x) is priced for exceptional future growth, particularly in the AI segment."
+    },
+    {
+      "ticker": "AVGO",
+      "parameters": [
+        {"name": "P/E vs. Sector/Historical", "value": "Trailing P/E 45.68 vs. Semiconductors industry median 35.54 (29% above) but ~20% below own 5-yr avg P/E ~56.99 (FY21-25: 34.00,17.07,24.57,133.83,75.48 — note FY2024's 133.83 was likely distorted by VMware-acquisition accounting/one-time items, inflating this average). Mixed/uncertain signal given the historical distortion.", "score": 5, "source": {"name": "GuruFocus PE Ratio (TTM)", "url": "https://www.gurufocus.com/term/pettm/AVGO"}, "as_of": "2026-09-05"},
+        {"name": "Revenue Growth YoY", "value": "TTM revenue $89,104M, +48.69% YoY", "score": 10, "source": {"name": "stockanalysis.com/stocks/AVGO/financials", "url": "https://stockanalysis.com/stocks/AVGO/financials/"}, "as_of": "TTM ended 2026-08-02"},
+        {"name": "Profit Margin Trend", "value": "Net margin 42.94% (TTM) vs 36.20% FY2025, +6.74 pts expanding; operating margin 48.59% vs 41.27%. Note: gross margin actually contracted slightly (75.52% vs 77.33%), a mix-shift caveat worth flagging even though bottom-line margins expanded.", "score": 9, "source": {"name": "stockanalysis.com/stocks/AVGO/financials", "url": "https://stockanalysis.com/stocks/AVGO/financials/"}, "as_of": "TTM ended 2026-08-02"},
+        {"name": "Debt-to-Equity", "value": "0.60x — moderate leverage", "score": 6, "source": {"name": "stockanalysis.com/stocks/AVGO/financials/ratios", "url": "https://stockanalysis.com/stocks/AVGO/financials/ratios/"}, "as_of": "2026-09-04"},
+        {"name": "FCF / EPS Growth", "value": "TTM FCF $39,403M, +58.05% YoY (from $26,914M in FY2025); Diluted EPS $7.83, +100.03% YoY", "score": 10, "source": {"name": "stockanalysis.com/stocks/AVGO/financials/cash-flow-statement", "url": "https://stockanalysis.com/stocks/AVGO/financials/cash-flow-statement/"}, "as_of": "TTM ended 2026-08-02"}
+      ],
+      "notes": "AI/custom-silicon and software (VMware) demand driving very strong growth, margins, and cash generation. Valuation looks elevated vs. sector but the 'own 5-yr average' comparison is distorted by an anomalous FY2024 P/E spike tied to VMware acquisition accounting, so that leg of the P/E rubric is less reliable here."
+    },
+    {
+      "ticker": "META",
+      "parameters": [
+        {"name": "P/E vs. Sector/Historical", "value": "Trailing P/E ~23.24 vs. Interactive Media industry median 15.125 (53.5% above) but roughly in line with own 5-yr avg P/E ~22.37 (FY21-25: 23.77,13.60,23.28,23.70,27.52) and 16% below its 10-yr median of 27.77. Above sector by >15% but not above own history — mixed, not both.", "score": 5, "source": {"name": "GuruFocus PE Ratio (TTM)", "url": "https://www.gurufocus.com/term/pettm/META"}, "as_of": "2026-09-05"},
+        {"name": "Revenue Growth YoY", "value": "TTM revenue $228,247M, +27.65% YoY", "score": 9, "source": {"name": "stockanalysis.com/stocks/META/financials", "url": "https://stockanalysis.com/stocks/META/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Profit Margin Trend", "value": "Net margin 29.84% (TTM) vs 30.08% FY2025, -0.24 pt — roughly flat. Operating margin contracted more notably, -3.36 pts (38.08% vs 41.44%), reflecting rising AI infrastructure depreciation/opex — flagged as a caveat even though net margin is within the 'flat' band.", "score": 6, "source": {"name": "stockanalysis.com/stocks/META/financials", "url": "https://stockanalysis.com/stocks/META/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Debt-to-Equity", "value": "0.43x — conservative leverage", "score": 8, "source": {"name": "stockanalysis.com/stocks/META/financials/ratios", "url": "https://stockanalysis.com/stocks/META/financials/ratios/"}, "as_of": "2026-09-04"},
+        {"name": "FCF / EPS Growth", "value": "TTM FCF $40,976M, -18.27% YoY (from $46,109M); Diluted EPS $26.54, -3.75% YoY (negative)", "score": 3, "source": {"name": "stockanalysis.com/stocks/META/financials/cash-flow-statement", "url": "https://stockanalysis.com/stocks/META/financials/cash-flow-statement/"}, "as_of": "TTM ended 2026-06-30"}
+      ],
+      "notes": "Revenue growth remains robust and leverage is conservative, but rising AI-related depreciation/capex is compressing operating margin, FCF, and EPS. Valuation is rich vs. sector peers though not vs. Meta's own trading history."
+    },
+    {
+      "ticker": "TSLA",
+      "parameters": [
+        {"name": "P/E vs. Sector/Historical", "value": "Trailing P/E 367.43 (stockanalysis.com) / 327.85 (GuruFocus) vs. Vehicles & Parts industry median ~17.1 (roughly 19-21x median) and own 5-yr avg P/E ~170.43 (FY21-25: 192.54,30.91,52.66,181.82,394.22) — more than double own average. Overvalued by a wide margin both ways.", "score": 2, "source": {"name": "GuruFocus PE Ratio (TTM)", "url": "https://www.gurufocus.com/term/pettm/TSLA"}, "as_of": "2026-09-06"},
+        {"name": "Revenue Growth YoY", "value": "TTM revenue $103,619M, +11.76% YoY", "score": 6, "source": {"name": "stockanalysis.com/stocks/TSLA/financials", "url": "https://stockanalysis.com/stocks/TSLA/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Profit Margin Trend", "value": "Net margin 3.67% (TTM) vs 4.00% FY2025, -0.33 pt — roughly flat/slightly contracting but within the ±1 pt neutral band; operating margin 4.13% vs 4.59% (-0.46 pt)", "score": 5, "source": {"name": "stockanalysis.com/stocks/TSLA/financials", "url": "https://stockanalysis.com/stocks/TSLA/financials/"}, "as_of": "TTM ended 2026-06-30"},
+        {"name": "Debt-to-Equity", "value": "0.18x — conservative leverage", "score": 9, "source": {"name": "stockanalysis.com/stocks/TSLA/financials/ratios", "url": "https://stockanalysis.com/stocks/TSLA/financials/ratios/"}, "as_of": "2026-09-04"},
+        {"name": "FCF / EPS Growth", "value": "TTM FCF $5,762M, +3.15% YoY (positive but modest); Diluted EPS $1.08 TTM, -35.64% YoY (negative)", "score": 3, "source": {"name": "stockanalysis.com/stocks/TSLA/financials/cash-flow-statement", "url": "https://stockanalysis.com/stocks/TSLA/financials/cash-flow-statement/"}, "as_of": "TTM ended 2026-06-30"}
+      ],
+      "notes": "Valuation is dramatically elevated vs. both sector peers and Tesla's own historical range, and EPS has declined sharply YoY despite still-positive FCF — margin pressure from pricing/incentive competition in EVs is a key driver. Low leverage is the one clearly bullish leg."
+    }
+  ]
+}

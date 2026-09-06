@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-09-06T00:00:00Z",
+  "category": "technical",
+  "stocks": [
+    {
+      "ticker": "NVDA",
+      "parameters": [
+        {"name": "SMA Trend (50D/200D)", "value": "Price $230.36 above 50D SMA $224.03 and above 200D SMA $216.67; 50D>200D (golden cross regime); 9 of 12 MAs give buy signal", "score": 9, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/nvidia-corp-technical"}, "as_of": "2026-09-04"},
+        {"name": "RSI(14)", "value": "58.30 (neutral)", "score": 6, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/nvidia-corp-technical"}, "as_of": "2026-09-04"},
+        {"name": "MACD Signal", "value": "MACD(12,26) = 2.22, buy signal (positive/rising)", "score": 8, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/nvidia-corp-technical"}, "as_of": "2026-09-04"},
+        {"name": "Volume Trend", "value": "Volume rose ~671K shares vs prior day alongside rising price — accumulation signal", "score": 8, "source": {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/NVDA"}, "as_of": "2026-09-04"},
+        {"name": "52-Week Range Position", "value": "$230.36 vs range $164.07–$236.54 = ~91.5th percentile", "score": 9, "source": {"name": "StockAnalysis.com", "url": "https://stockanalysis.com/stocks/NVDA/"}, "as_of": "2026-09-04"}
+      ],
+      "notes": "Broadly bullish technical picture: price near 52-week highs, above both key SMAs with 50D>200D, MACD and volume confirming an uptrend. RSI is neutral, not yet overbought."
+    },
+    {
+      "ticker": "AAPL",
+      "parameters": [
+        {"name": "SMA Trend (50D/200D)", "value": "Price $319.97 below 50D SMA $321.06 (sell) but above 200D SMA $314.37 (buy); mixed — short-term pullback within longer uptrend", "score": 6, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/apple-computer-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "RSI(14)", "value": "41.96 (neutral, leaning weak)", "score": 5, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/apple-computer-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "MACD Signal", "value": "MACD(12,26) = -0.21, mild sell signal (near zero); note: StockInvest.us 3-month MACD shows a buy signal, so cross-source signals diverge", "score": 4, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/apple-computer-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "Volume Trend", "value": "Volume rose ~2M shares vs prior day while price declined — mild distribution signal", "score": 3, "source": {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/AAPL"}, "as_of": "2026-09-04"},
+        {"name": "52-Week Range Position", "value": "$319.97 vs range $225.95–$344.57 = ~79.3rd percentile", "score": 7, "source": {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/AAPL/"}, "as_of": "2026-09-04"}
+      ],
+      "notes": "Mixed-to-slightly-bullish. Price sits just below its 50D SMA after a pullback but remains above its 200D SMA and near the upper part of its 52-week range. Note: stockanalysis.com returned a stale cached quote ($234.93, dated Nov 2024) for this ticker during research — discarded in favor of investing.com/marketbeat.com, which agree at $319.97."
+    },
+    {
+      "ticker": "GOOGL",
+      "parameters": [
+        {"name": "SMA Trend (50D/200D)", "value": "Price $338.46 below 50D SMA $340.02 and below 200D SMA $347.20; 50D<200D (death-cross-style order) — bearish", "score": 3, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/google-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "RSI(14)", "value": "45.53 (neutral)", "score": 5, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/google-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "MACD Signal", "value": "MACD(12,26) = -0.40, sell signal", "score": 3, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/google-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "Volume Trend", "value": "Volume rose ~2M shares vs prior day while price fell — distribution signal", "score": 3, "source": {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/GOOGL"}, "as_of": "2026-09-04"},
+        {"name": "52-Week Range Position", "value": "$338.46 vs range $226.11–$408.61 = ~61.6th percentile", "score": 6, "source": {"name": "StockAnalysis.com", "url": "https://stockanalysis.com/stocks/GOOGL/"}, "as_of": "2026-09-04"}
+      ],
+      "notes": "Bearish-leaning near term: price below both SMAs with the 50D under the 200D, negative MACD, and distribution-style volume. Overall investing.com daily rating was 'Strong Sell'. 52-week position is mid-range."
+    },
+    {
+      "ticker": "MSFT",
+      "parameters": [
+        {"name": "SMA Trend (50D/200D)", "value": "Price $499.70 below 50D SMA $505.31 (sell) but above 200D SMA $487.87 (buy); 50D>200D still — mixed", "score": 6, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/microsoft-corp-technical"}, "as_of": "2026-09-04"},
+        {"name": "RSI(14)", "value": "42.69 (neutral, leaning weak)", "score": 5, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/microsoft-corp-technical"}, "as_of": "2026-09-04"},
+        {"name": "MACD Signal", "value": "MACD(12,26) = -1.41, sell signal", "score": 3, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/microsoft-corp-technical"}, "as_of": "2026-09-04"},
+        {"name": "Volume Trend", "value": "Volume fell ~6M shares vs prior day while price also fell — light volume on the down day, roughly neutral", "score": 6, "source": {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/MSFT"}, "as_of": "2026-09-04"},
+        {"name": "52-Week Range Position", "value": "$499.70 vs range $349.20–$553.72 = ~73.6th percentile", "score": 7, "source": {"name": "StockAnalysis.com", "url": "https://stockanalysis.com/stocks/MSFT/"}, "as_of": "2026-09-04"}
+      ],
+      "notes": "Mixed picture: short-term weakness (below 50D SMA, negative MACD, RSI under 50) inside a still-intact longer-term uptrend (above 200D SMA, upper-middle of 52-week range)."
+    },
+    {
+      "ticker": "AMZN",
+      "parameters": [
+        {"name": "SMA Trend (50D/200D)", "value": "Price $258.51 above 50D SMA $258.16 (buy, marginal) but below 200D SMA $262.40 (sell); mixed", "score": 5, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/amazon-com-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "RSI(14)", "value": "54.60 (neutral)", "score": 6, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/amazon-com-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "MACD Signal", "value": "MACD(12,26) = -0.11, weak sell signal, near zero", "score": 4, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/amazon-com-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "Volume Trend", "value": "Volume rose ~4M shares vs prior day while price fell — distribution signal", "score": 3, "source": {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/AMZN"}, "as_of": "2026-09-04"},
+        {"name": "52-Week Range Position", "value": "$258.51 vs range $196.00–$287.20 = ~68.5th percentile", "score": 6, "source": {"name": "StockAnalysis.com", "url": "https://stockanalysis.com/stocks/AMZN/"}, "as_of": "2026-09-04"}
+      ],
+      "notes": "Largely neutral/mixed: price is essentially at its 50D SMA but below its 200D SMA, RSI and 52-week position both mid-range, MACD flat-to-slightly-negative, and a recent down-day volume pickup is a mild caution flag."
+    },
+    {
+      "ticker": "TSM",
+      "parameters": [
+        {"name": "SMA Trend (50D/200D)", "value": "Price $428.91 above 50D SMA $419.10 and above 200D SMA $416.15; 50D>200D (golden cross regime); 12 of 12 MAs buy", "score": 9, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/taiwan-semicond.manufacturing-co-technical"}, "as_of": "2026-09-04"},
+        {"name": "RSI(14)", "value": "70.87 (slightly overbought, just above 70)", "score": 4, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/taiwan-semicond.manufacturing-co-technical"}, "as_of": "2026-09-04"},
+        {"name": "MACD Signal", "value": "MACD(12,26) = 2.98, buy signal", "score": 8, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/taiwan-semicond.manufacturing-co-technical"}, "as_of": "2026-09-04"},
+        {"name": "Volume Trend", "value": "Volume rose ~4M shares vs prior day alongside a +2.85% price gain — accumulation signal", "score": 8, "source": {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/TSM"}, "as_of": "2026-09-04"},
+        {"name": "52-Week Range Position", "value": "$428.91 vs range $230.30–$479.00 = ~79.9th percentile", "score": 7, "source": {"name": "StockAnalysis.com", "url": "https://stockanalysis.com/stocks/TSM/"}, "as_of": "2026-09-04"}
+      ],
+      "notes": "Strongly bullish technical setup across nearly every measure (golden cross regime, rising volume on an up day, near 52-week highs) with the one caution being an RSI just over the 70 overbought threshold after a sharp one-day rally."
+    },
+    {
+      "ticker": "SPCX",
+      "parameters": [
+        {"name": "SMA Trend (50D/200D)", "value": "Price $147.95 above 50D SMA $143.69 and above 200D SMA $132.80; 50D>200D (golden cross regime), though shortest-term MAs (5D/10D) show sell after a recent dip", "score": 8, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/spacex-technical"}, "as_of": "2026-09-05"},
+        {"name": "RSI(14)", "value": "56.66 (neutral)", "score": 6, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/spacex-technical"}, "as_of": "2026-09-05"},
+        {"name": "MACD Signal", "value": "MACD(12,26) = 1.58, buy signal", "score": 7, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/spacex-technical"}, "as_of": "2026-09-05"},
+        {"name": "Volume Trend", "value": "Volume fell alongside a small price decline — described by source as a 'good sign' (volume following price down), roughly neutral", "score": 6, "source": {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/SPCX"}, "as_of": "2026-09-04"},
+        {"name": "52-Week Range Position", "value": "$147.95 vs range $104.83–$225.64 = ~35.7th percentile", "score": 5, "source": {"name": "StockAnalysis.com", "url": "https://stockanalysis.com/stocks/SPCX/"}, "as_of": "2026-09-04"}
+      ],
+      "notes": "As a recently-public, more volatile name, data coverage is thinner than the mega-caps but investing.com/stockanalysis.com/stockinvest.us all had usable current data. Overall picture is bullish on trend structure (price above both key SMAs, 50D>200D) with neutral momentum/volume readings and price sitting well off its 52-week high ($225.64) after a pullback."
+    },
+    {
+      "ticker": "AVGO",
+      "parameters": [
+        {"name": "SMA Trend (50D/200D)", "value": "Price $357.90 below 50D SMA $364.45 and below 200D SMA $385.43; 50D<200D (death cross regime) — bearish", "score": 3, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/avago-technologies-technical"}, "as_of": "2026-09-04"},
+        {"name": "RSI(14)", "value": "47.16 (neutral)", "score": 5, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/avago-technologies-technical"}, "as_of": "2026-09-04"},
+        {"name": "MACD Signal", "value": "MACD(12,26) = -2.10, sell signal", "score": 3, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/avago-technologies-technical"}, "as_of": "2026-09-04"},
+        {"name": "Volume Trend", "value": "Volume fell vs prior day despite a price gain — bearish divergence (weak conviction on the up move)", "score": 4, "source": {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/AVGO"}, "as_of": "2026-09-04"},
+        {"name": "52-Week Range Position", "value": "$357.90 vs range $289.96–$495.00 = ~33.1st percentile", "score": 5, "source": {"name": "StockAnalysis.com", "url": "https://stockanalysis.com/stocks/AVGO/"}, "as_of": "2026-09-04"}
+      ],
+      "notes": "Bearish technical setup: price below both key SMAs with the 50D under the 200D, negative MACD, and volume not confirming the day's price gain. Investing.com's overall daily rating was 'Strong Sell' despite a post-earnings pullback from highs."
+    },
+    {
+      "ticker": "META",
+      "parameters": [
+        {"name": "SMA Trend (50D/200D)", "value": "Price $616.77 above 50D SMA $588.21 and above 200D SMA $577.83; 50D>200D (golden cross regime); 10 of 12 MAs buy", "score": 9, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/facebook-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "RSI(14)", "value": "67 (neutral, upper end)", "score": 7, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/facebook-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "MACD Signal", "value": "MACD(12,26) = 7.35, buy signal", "score": 9, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/facebook-inc-technical"}, "as_of": "2026-09-04"},
+        {"name": "Volume Trend", "value": "Volume fell ~4M shares vs prior day despite a price gain — mild bearish divergence (weak conviction)", "score": 4, "source": {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/META"}, "as_of": "2026-09-04"},
+        {"name": "52-Week Range Position", "value": "$616.77 vs range $520.26–$790.80 = ~35.7th percentile", "score": 5, "source": {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/META/"}, "as_of": "2026-09-04"}
+      ],
+      "notes": "Strong trend/momentum signals (golden cross regime, strong positive MACD) offset by a volume divergence (declining volume on an up day) and a price well below its 52-week high after a pullback from highs; note stock is down ~6.6% YTD per MarketBeat. Note: stockanalysis.com returned a stale cached quote ($716.37) for this ticker during research — discarded in favor of investing.com/marketbeat.com, which agree at $616.77."
+    },
+    {
+      "ticker": "TSLA",
+      "parameters": [
+        {"name": "SMA Trend (50D/200D)", "value": "Price $354.08 below 50D SMA $358.55 (sell) but above 200D SMA $338.58 (buy); 50D>200D still — mixed after a sharp one-day drop", "score": 6, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/tesla-motors-technical"}, "as_of": "2026-09-04"},
+        {"name": "RSI(14)", "value": "42.10 (neutral, leaning weak)", "score": 5, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/tesla-motors-technical"}, "as_of": "2026-09-04"},
+        {"name": "MACD Signal", "value": "MACD(12,26) = -1.72, sell signal", "score": 3, "source": {"name": "Investing.com Technical Analysis", "url": "https://www.investing.com/equities/tesla-motors-technical"}, "as_of": "2026-09-04"},
+        {"name": "Volume Trend", "value": "Volume rose ~1M shares vs prior day amid a sharp -5.92% price drop — distribution signal", "score": 3, "source": {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/TSLA"}, "as_of": "2026-09-04"},
+        {"name": "52-Week Range Position", "value": "$354.08 vs range $297.38–$498.83 = ~28.2nd percentile", "score": 5, "source": {"name": "StockAnalysis.com", "url": "https://stockanalysis.com/stocks/TSLA/"}, "as_of": "2026-09-04"}
+      ],
+      "notes": "Stock fell sharply (-5.92%) on the latest session on rising volume, pushing RSI and MACD negative and price below its 50D SMA; investing.com's overall daily technical rating was 'Strong Sell' on the day. Longer-term trend (200D SMA) remains intact and 52-week position is in the lower-middle of its range, well off its 52-week high."
+    }
+  ]
+}
