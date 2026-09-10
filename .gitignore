@@ -1,0 +1,3 @@
+# Personal portfolio files -- never commit
+input/*.xlsx
+!input/.gitkeep
