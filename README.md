@@ -11,6 +11,8 @@ A multi-agent AI system for stock research and analysis — agents collaborate t
 - `research/` — supporting research material
 - `v1_portfolio_state_starter_template.xlsx` — starter template for tracking portfolio state
 
+- https://claude.ai/code/artifact/98e32ed5-04c7-4260-b0e0-2e792ecb5170
+
 ## Getting started
 
 See `CLAUDE.md` for agent setup and workflow details.
