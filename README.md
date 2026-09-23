@@ -1,3 +1,5 @@
+![Stock Analyst Agent](docs/banner.png)
+
 # Stock Analyst Agent
 
 A multi-agent AI system for stock research and analysis — agents collaborate to gather data, run research, and produce structured investment analysis.
